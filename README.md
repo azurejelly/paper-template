@@ -35,7 +35,7 @@ serverVersion=1.21.3
 # Sets the plugin name, description and website.
 # The description and website are both optional and can be commented out.
 pluginName=SamplePlugin
-pluginDescription=It's as shrimple as that
+pluginDescription="It's as shrimple as that"
 pluginWebsite=https://azu.cool
 ```
 
