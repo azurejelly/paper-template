@@ -1,0 +1,4 @@
+hello: "world"
+name-instead: true
+player-only: "This command can only be ran by players!"
+mini-message: "Hello <gradient:#f21dd9:#ff52f6:#f21dd9><b>wooooooooooorld</b></gradient>!"
