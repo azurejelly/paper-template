@@ -26,7 +26,7 @@ $ idea .
 
 To change the plugin's name, description, group ID, version and some other properties, open up the `gradle.properties` file. By default, the file looks like this:
 ```properties
-group=cool.azu.sample
+group=dev.azuuure.sample
 version=1.0.0
 
 # Sets the Minecraft version to use with the 'runServer' task.
@@ -36,7 +36,7 @@ serverVersion=1.21.3
 # The description and website are both optional and can be commented out.
 pluginName=SamplePlugin
 pluginDescription="It's as shrimple as that"
-pluginWebsite=https://azu.cool
+pluginWebsite=https://azuuure.dev
 ```
 
 When changing the group ID, be sure to change the packages inside the source code as well. You can do this by right-clicking the packages on IntelliJ IDEA, then choosing `Refactor > Rename`. If the server yells at you when loading the plugin because it can't find the main class, try specifying it manually in the [`plugin/build.gradle.kts`](plugin/build.gradle.kts) file:
